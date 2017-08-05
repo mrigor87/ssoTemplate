@@ -40,8 +40,11 @@ export class HomeComponent {
     console.log('++++++++++++++++++++++++++++++++++');
     this._service.consoleView1();
     console.log('++++++++++++++++++++++++++++++++++');
-
-
+    this._service.getResource('http://localhost:8081/auth/user/me')
+      .subscribe(d=>{
+        console.log(d)
+      })
+    console.log('------------------------------------------------');
   }
 
   login() {

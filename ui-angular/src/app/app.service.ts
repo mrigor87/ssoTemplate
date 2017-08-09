@@ -19,8 +19,8 @@ export class AppService {
   constructor(private _router: Router, private _http: Http, private oauthService: OAuthService) {
     this.oauthService.loginUrl = 'http://localhost:8081/auth/oauth/authorize';
     this.oauthService.redirectUri = 'http://localhost:4200/';
-    this.oauthService.clientId = "read-only-client";
-    this.oauthService.scope = "read";
+    this.oauthService.clientId = "implicit-flow-client";
+    this.oauthService.scope = "read write";
 
     this.oauthService.setStorage(sessionStorage);
 

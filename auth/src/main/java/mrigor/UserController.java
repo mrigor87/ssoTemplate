@@ -15,8 +15,8 @@ public class UserController {
     }
 
     @RequestMapping("/")
-    public String hello(Principal principal){
-String name=principal!=null?principal.getName():"Anonimous. This is the auth server";
-        return "hello "+ name;
+    public String hello(){
+
+        return "auth server" ;
     }
 }

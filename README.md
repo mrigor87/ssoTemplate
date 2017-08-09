@@ -29,7 +29,7 @@ The following clients are available for access to the authorization server:
 - `java -jar auth/target/auth-0.0.1-SNAPSHOT.jar`
 - `java -jar resource-server/target/resource-server-0.0.1-SNAPSHOT.jar`
 
-2.	To start frontend (ui-angular)
+2.	To start frontend (ui-angular). Angular CLI must be installed
 
 - `cd ui-angular`
 - `npm install`

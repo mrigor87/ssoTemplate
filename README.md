@@ -29,7 +29,7 @@ The following clients are available for access to the authorization server:
 1.	To start backend (auth-server and resource-server)
 
 - `mvn clean install`
-- `java -jar auth/target/auth-0.0.1-SNAPSHOT.jar`
+- `java -jar auth-server/target/auth-server-0.0.1-SNAPSHOT.jar`
 - `java -jar resource-server/target/resource-server-0.0.1-SNAPSHOT.jar`
 
 2.	To start frontend (ui-angular). Angular CLI must be installed

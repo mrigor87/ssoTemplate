@@ -1,4 +1,4 @@
-# Single sign on (SSO) implementation with Spring Oauth 2.0
+# Single sign on (SSO) with Spring Oauth 2.0
 
 ## Description
 

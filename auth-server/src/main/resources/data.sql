@@ -3,12 +3,12 @@
 INSERT INTO oauth_client_details
   (client_id,             client_secret, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove)
 VALUES
-  ('implicit-flow-client', NULL, 'read,write', 'implicit', 'http://localhost:4200', NULL, 7200, 0, NULL, 'false');
+  ('implicit-flow-client', NULL, 'read,write', 'implicit', 'http://localhost:4200', NULL, 7200, 0, NULL, 'true');
 
 INSERT INTO oauth_client_details
 (client_id,  client_secret, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove)
 VALUES
-  ('curl-client',  'client-secret', 'read,write', 'client_credentials', '', 'role_admin', 7200, 0, NULL, 'false');
+  ('curl-client',  'client-secret', 'read,write', 'client_credentials', '', 'role_admin', 7200, 0, NULL, 'true');
 
 INSERT INTO oauth_client_details
 (client_id, client_secret)

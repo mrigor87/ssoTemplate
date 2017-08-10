@@ -8,15 +8,14 @@
 
 **ui-angular** - simple client-side application allowing to receive resources after authenticating on the auth-server side.
 
-Simple scheme of relations between this apps are showing in the drawing.
+Simple scheme of interaction between this apps are showing in the drawing.
 
 
 
 The following clients are available for access to the authorization server:
 
-- **implicit-flow-client** with 'implicit flow' authorization grant. This client uses for authentication from client-side app (using in ui-angular application). UML diagram
-- **curl-client** with 'client-credentials' authorization grant. Using this client, it is possible to access the authorization server directly. 
-<br/>For example by curl: 
+- **implicit-flow-client** with 'implicit flow' authorization grant. This client is used for authentication from client-side app (ui-angular application). UML diagram
+- **curl-client** with 'client-credentials' authorization grant. Using this client, it is possible to access the authorization server directly. For example by curl: 
 <br/>get token:   
 `curl -X POST --user 'curl-client:client-secret' -d 'grant_type=client_credentials&username=tom&password=123' http://localhost:8081/auth/oauth/token`
 <br/>get resource by token:  

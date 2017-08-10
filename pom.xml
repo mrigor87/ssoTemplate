@@ -23,7 +23,7 @@
     </properties>
 
     <modules>
-        <module>auth</module>
+        <module>auth-server</module>
         <module>resource-server</module>
     </modules>
 

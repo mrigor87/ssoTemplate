@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>auth</name>
+	<name>auth-server</name>
 	<description>auth server</description>
 
 	<parent>

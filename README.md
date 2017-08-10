@@ -8,7 +8,7 @@
 
 **ui-angular** - simple client-side application allowing to receive resources after authenticating on the auth-server side.
 
-Simple scheme of interaction between this apps are showing in the [`drawing`](https://github.com/mrigor87/ssoTemplate/tree/master/doc/scheme.jpg).
+Simple scheme of interaction between this apps are showing in the [`drawing`](https://github.com/mrigor87/ssoTemplate/tree/master/doc/scheme_.jpg).
 
 
 

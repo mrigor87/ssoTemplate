@@ -7,6 +7,7 @@ import { OAuthModule } from 'angular-oauth2-oidc';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HomeComponent } from './home.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    HttpClientModule,
     OAuthModule.forRoot(),
     RouterModule.forRoot([
      { path: '', component: HomeComponent }])

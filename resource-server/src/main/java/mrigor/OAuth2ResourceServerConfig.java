@@ -11,9 +11,10 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 public class OAuth2ResourceServerConfig extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
+       // web.ignoring().antMatchers("/v2/api-docs", "/configuration/ui", "/swagger-resources", "/configuration/security", "/swagger-ui.html", "/webjars/**");
 
         http.authorizeRequests()
-                .antMatchers("/*").permitAll()
+                .antMatchers("/*","/v2/api-docs", "/configuration/ui", "/swagger-resources/**", "/configuration/security", "/swagger-ui.html", "/webjars/**").permitAll()
                 .antMatchers("/login/*").permitAll()
 
 

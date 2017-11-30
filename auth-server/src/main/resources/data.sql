@@ -3,7 +3,7 @@
 INSERT INTO oauth_client_details
   (client_id,             client_secret, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove)
 VALUES
-  ('implicit-flow-client', NULL, 'read,write', 'implicit', 'http://localhost:4200', NULL, 7200, 0, NULL, 'true');
+  ('implicit-flow-client', 'test', 'read,write', 'implicit', 'http://localhost:8082/resource-server/webjars/springfox-swagger-ui/o2c.html', NULL, 7200, 0, NULL, 'true');
 
 INSERT INTO oauth_client_details
 (client_id,  client_secret, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove)
